@@ -1,6 +1,58 @@
-h1 {
-  font-family: "Sacramento", cursive;
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url("./src/images/dan-calderwood-4ud7LlhH0Fc-unsplash.jpeg");
+  background-size: cover;
+  position: relative;
+  opacity: 0.9;
 }
-h2 {
+
+body {
   font-family: "Poppins", sans-serif;
+}
+
+.hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  color: rgb(235, 233, 233);
+  padding-bottom: 80px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 110px;
+  font-family: "Sacramento", cursive;
+  text-shadow: 2px 2px rgb(122, 122, 122);
+}
+
+h2 {
+  font-size: 30px;
+  text-shadow: 1px 1px rgb(122, 122, 122);
+}
+
+#bounce {
+  animation: bounce 3s linear infinite;
+}
+@keyframes bounce {
+  20% {
+    transform: translateY(-10px);
+  }
+  30% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+
+.fa-chevron-down {
+  color: white;
+  font-size: 33px;
 }
