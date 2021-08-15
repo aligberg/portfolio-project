@@ -31,12 +31,10 @@ h1 {
   font-weight: 700;
   font-size: 100px;
   font-family: "Sacramento", cursive;
-  text-shadow: 2px 2px rgba(122, 122, 122, 0.7);
 }
 
 h2 {
   font-size: 28px;
-  text-shadow: 1px 1px rgb(122, 122, 122);
 }
 
 @media (max-width: 800px) {
