@@ -37,15 +37,6 @@ h2 {
   font-size: 28px;
 }
 
-@media (max-width: 800px) {
-  h1 {
-    font-size: 75px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-}
-
 h3,
 h4,
 p {
@@ -99,10 +90,6 @@ p {
   border-radius: 8px;
   box-shadow: 3px 3px 3px rgba(122, 122, 122, 0.2);
 }
-.skills {
-  display: flex;
-  justify-content: space-around;
-}
 
 .btn {
   background: var(--accent-color);
@@ -135,4 +122,20 @@ p {
 hr {
   margin: 0;
   color: var(--text-color);
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 75px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 100%;
+  }
 }
