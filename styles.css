@@ -149,24 +149,28 @@ hr {
 .progressBar .progress .bg-info {
   background-color: #17a2b8!important;
 }
+.about {
+  background: #faf9f9;
+  
+}
+
 .about-section {
-  padding: 100px 30px;
+  padding: 160px 30px;
+
 }
 
 .about-section h1 {
-  font-size: 64px;
+  font-size: 84px;
   line-height: 80px;
 }
 .about-section h2 {
   font-size: 18px;
 }
 .about-section p{
-  font-size: 16px;
+  font-size: 15px;
   line-height: 30px;
 }
-.about-content {
-  padding-left: 25px;
-}
+
 
 .about-image {
   display: block;
