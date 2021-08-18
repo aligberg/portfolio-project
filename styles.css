@@ -149,12 +149,12 @@ hr {
 .progressBar .progress .bg-info {
   background-color: #17a2b8!important;
 }
-.about {
+.about, .work {
   background: #faf9f9;
   
 }
 
-.about-section {
+.about-section, .work-section {
   padding: 160px 30px;
 
 }
@@ -176,4 +176,21 @@ hr {
   display: block;
   margin: 0 auto;
   border-radius: 10px;
+}
+
+.project-screenshot {
+  max-width: 100%;
+  
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.work h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  color: black;
+}
+.work p {
+  font-size: 14px;
 }
