@@ -1,5 +1,5 @@
 :root {
-  --accent-color: #17a2b8;
+  --accent-color: #705169;
   --text-color: #464d53;
 }
 
@@ -92,10 +92,9 @@ p {
 }
 
 .btn {
-  color: var(--accent-color);
   border: solid 1.5px var(--accent-color);
   padding: 10px 25px;
-  box-shadow: 3px 3px 3px rgba(122, 122, 122, 0.2);
+  box-shadow: 2px 2px 2px rgba(122, 122, 122, 0.2);
 }
 .btn a {
   text-decoration: none;
@@ -108,13 +107,14 @@ p {
   padding: 10px 25px;
 }
 .btn:hover {
-  color: #fff;
-  background: #117a8a;
-  transition: 0.3s ease-in-out;
+  background: #705169;
+  transition: 1.5s ease;
   border: none;
+  text-decoration: none;
 }
-.btn a:hover {
+.btn:hover a {
   color: #fff;
+  text-decoration: none;
 }
 
 .weather-screenshot {
@@ -147,14 +147,14 @@ hr {
   }
 }
 .progressBar .progress .bg-info {
-  background-color: #17a2b8!important;
+  background-color: #705169!important;
 }
-.about, .work {
+.about, .work, .contact {
   background: #faf9f9;
   
 }
 
-.about-section, .work-section {
+.about-section, .work-section, .contact-section {
   padding: 160px 30px;
 
 }
@@ -193,4 +193,41 @@ hr {
 }
 .work p {
   font-size: 14px;
+}
+/*------Contact------*/
+.email, .phone, .social {
+  background-color: #fff;
+  box-shadow: 3px 3px rgba(25, 28, 31, 0.2);
+  border-radius: 8px;
+  text-align: center;  
+}
+.email, .phone {
+  padding: 25px 15px 18px 15px;
+  margin-bottom: 15px;
+}
+.social {
+  padding: 30px 15px 30px 10px;
+}
+
+#contact h4 {
+  font-size: 19px;
+  font-weight: 500;
+  color: #666;
+}
+
+.social-icons i {
+  font-size: 24px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: var(--accent-color);
+
+}
+.social-icons a {
+  text-decoration: none;
+}
+@media (min-width: 1200px){
+.contact-container {
+  margin-left: 200px;
+  margin-right: 200px;
+}
 }
