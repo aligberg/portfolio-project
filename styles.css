@@ -16,7 +16,6 @@ body {
 }
 
 .hero-container {
-  position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
@@ -24,6 +23,7 @@ body {
   flex-direction: column;
   color: rgb(235, 233, 233);
   padding-bottom: 80px;
+  padding-top: 110px;
 }
 
 h1 {
@@ -159,8 +159,11 @@ hr {
 }
 
 .about-section, .work-section, .contact-section {
-  padding: 160px 30px;
+  padding: 100px 30px;
 
+}
+.about-section h1, .work-section h1, .contact-section h1 {
+  padding-bottom: 50px;
 }
 
 .about-section h1 {
@@ -235,10 +238,24 @@ hr {
   margin-right: 200px;
 }
 }
+
+nav {
+  padding: 10px 0;
+}
 .home-nav .home-link, .home-nav a {
   color: #fff;
   text-decoration: none;
+  font-weight: 400;
 }
+.section-nav .home-link, .section-nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 400;
+}
+nav a:hover {
+  color: var(--accent-color);
+}
+
 .home-link {
   font-family: "Sacramento", cursive;
   font-size: 28px;
@@ -246,8 +263,12 @@ hr {
   line-height: 42px;
 }
 
-.hero li {
+.hero li, .section-nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
+}
+
+.nav-link .active {
+  color: var(--accent-color);
 }
