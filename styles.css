@@ -8,8 +8,7 @@
   height: 100vh;
   background: url("./src/images/emiliano-bar-DitA7EZdgoM-unsplash.jpg");
   background-size: cover;
-  position: relative;
-  opacity: 0.9;
+
 }
 
 body {
@@ -75,11 +74,16 @@ p {
   color: white;
   font-size: 33px;
 }
+.container .navbar {
+  padding-top: 0px!important;
+}
 
-.container {
+.content-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+
 
 .section-title {
   padding-bottom: 25px;
@@ -230,4 +234,20 @@ hr {
   margin-left: 200px;
   margin-right: 200px;
 }
+}
+.home-nav .home-link, .home-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.home-link {
+  font-family: "Sacramento", cursive;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.hero li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
 }
