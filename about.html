@@ -28,9 +28,36 @@
 
   <title>About Me</title>
 </head>
-<body class="about">
+<body class="about content-page">
+  <div class="hamburger d-block d-sm-none">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-light p-4">
+        <ul class="text-dark">
+          <li class="nav-link">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-link">
+            <a href="about.html" class="active">About</a>
+          </li>
+          <li class="nav-link">
+            <a href="work.html">Projects</a>
+          </li>
+          <li class="nav-link">
+            <a href="contact.html">Contact</a>
+          </li>
+          <ul>
+      </div>
+    </div>
+    <nav class="navbar navbar-light bg-light content-section-toggler">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    </nav>
   <div class="container">
-    <nav class="d-flex justify-content-between section-nav">
+    <nav class="d-flex justify-content-between section-nav d-none d-sm-flex">
       <a href="index.html" class="home-link">ali g.</a>
       <ul>
         <li class="nav-link">
@@ -49,7 +76,7 @@
     </nav>
   </div>
   <div class="container content-container about-section">
-    <h1 class="text-center mb-5">About me...</h1>
+    <h1 class="text-center">About me...</h1>
  
   <div class="row mt-5">
     <div class="col-md-6 about-content">
