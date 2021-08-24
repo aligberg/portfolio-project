@@ -276,6 +276,9 @@ nav a:hover {
     text-decoration: none;
     font-weight: 400;
   }
+  .content-page .about-image {
+    max-width: 300px;
+  }
   ul a:hover {
     color: var(--accent-color);
   }
