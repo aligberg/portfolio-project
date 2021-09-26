@@ -83,10 +83,9 @@ p {
   padding-bottom: 120px;
 }
 
-
-
-.section-title {
-  padding-bottom: 25px;
+.section-title h3 {
+  font-size: 45px;
+  padding-bottom: 50px;
 }
 .headshot {
   display: block;
@@ -120,9 +119,7 @@ p {
   border-radius: 8px;
   box-shadow: 3px 3px 3px rgba(122, 122, 122, 0.2);
 }
-.feature-project {
-  background-color: #faf9f9;
-}
+
 hr {
   margin: 0;
   color: var(--text-color);
